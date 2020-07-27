@@ -1,9 +1,9 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Facades;
+namespace Atypiccraft\StringBladeCompiler\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Wpb\String_Blade_Compiler\Compilers\StringBladeCompiler;
+use Atypiccraft\StringBladeCompiler\Compilers\StringBladeCompiler;
 
 /**
  * @method static bool exists(string $view)

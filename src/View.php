@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler;
+namespace Atypiccraft\StringBladeCompiler;
 
 use Exception;
 use Throwable;
@@ -20,7 +20,7 @@ class View extends \Illuminate\View\View
     /**
      * Create a new view instance.
      *
-     * @param  \Wpb\String_Blade_Compiler\Factory  $factory
+     * @param  \Atypiccraft\StringBladeCompiler\Factory  $factory
      * @param  \Illuminate\Contracts\View\Engine  $engine
      * @param  string  $view
      * @param  string  $path

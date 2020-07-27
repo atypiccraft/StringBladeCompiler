@@ -1,11 +1,11 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\View;
+namespace Atypiccraft\StringBladeCompiler\Tests\View;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 //use Illuminate\View\Engines\CompilerEngine;
-use \Wpb\String_Blade_Compiler\Engines\CompilerEngine;
+use \Atypiccraft\StringBladeCompiler\Engines\CompilerEngine;
 use Illuminate\View\Compilers\CompilerInterface;
 
 class ViewCompilerEngineTest extends TestCase

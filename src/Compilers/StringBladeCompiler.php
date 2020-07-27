@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Compilers;
+namespace Atypiccraft\StringBladeCompiler\Compilers;
 
 use Config;
 use Illuminate\Filesystem\Filesystem;

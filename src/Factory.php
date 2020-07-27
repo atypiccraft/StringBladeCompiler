@@ -1,5 +1,5 @@
 <?php
-namespace Wpb\String_Blade_Compiler;
+namespace Atypiccraft\StringBladeCompiler;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\View\Factory as FactoryParent;
@@ -76,7 +76,7 @@ class Factory extends FactoryParent
      * @param  string|array  $view
      * @param  array   $data
      * @param  array   $mergeData
-     * @return \Illuminate\Contracts\View\View|\Wpb\String_Blade_Compiler\StringView
+     * @return \Illuminate\Contracts\View\View|\Atypiccraft\StringBladeCompiler\StringView
      */
     public function make($view, $data = [], $mergeData = [])
     {

@@ -1,6 +1,6 @@
 String Blade Compiler
 =======================
-[![Laravel 6](https://img.shields.io/badge/Laravel-6-orange.svg?style=flat-square)](http://laravel.com)
+[![Laravel 7](https://img.shields.io/badge/Laravel-7-orange.svg?style=flat-square)](http://laravel.com)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 
 Render Blade templates from string value.
@@ -13,7 +13,8 @@ Versions
 =======================
 | String Blade  | Laravel Version | 
 | ------------- |----------------:|
-| 4.0           | Laravel 6     |
+| 5.0           | Laravel 7       |
+| 4.0           | Laravel 6       |
 | 3.8           | Laravel 5.8     |
 | 3.7           | Laravel 5.7     |
 | 3.6           | Laravel 5.6     |
@@ -23,6 +24,12 @@ Versions
 | 3.2           | Laravel 5.1     |
 | 2.*           | Laravel 5       |
 | 1.*           | Laravel 4.2     |
+
+Version 5.0 : Updates
+=======================
+> Forked from original (https://github.com/TerrePorter/StringBladeCompiler)
+> Added support for Laravel 7.0
+> Renamed namespaces and classes
 
 Version 3.8 : Updates
 =======================
@@ -52,6 +59,8 @@ Add the package to composer.json:
 On packagist.org at https://packagist.org/packages/wpb/string-blade-compiler
 	
     composer require "wpb/string-blade-compiler"
+
+# Version 5.0 is currently not available on packagist.
  	
 Configuration
 =======================
@@ -60,7 +69,7 @@ In config\app.php, providers section:
 
 > Both the ServiceProvider and Facade Alias are auto registered by Laravel. There is no need to add them to the /config/app.php file.
 
-~~Replace 'Illuminate\View\ViewServiceProvider::class' with 'Wpb\String_Blade_Compiler\ViewServiceProvider::class',~~
+~~Replace 'Illuminate\View\ViewServiceProvider::class' with 'Atypiccraft\StringBladeCompiler\ViewServiceProvider::class',~~
 > This version does not require you to remove the registration of the original view component. Upon ServiceProvider registration it will replace the view binds with its self.
 
 ### Laravel's Autoloader

@@ -1,11 +1,11 @@
 <?php
-namespace Wpb\String_Blade_Compiler;
+namespace Atypiccraft\StringBladeCompiler;
 
 use Illuminate\View\Engines\EngineResolver;
 use Illuminate\View\FileViewFinder;
 use Illuminate\View\ViewServiceProvider;
-use Wpb\String_Blade_Compiler\Compilers\StringBladeCompiler;
-use Wpb\String_Blade_Compiler\Engines\CompilerEngine;
+use Atypiccraft\StringBladeCompiler\Compilers\StringBladeCompiler;
+use Atypiccraft\StringBladeCompiler\Engines\CompilerEngine;
 
 class StringBladeServiceProvider extends ViewServiceProvider{
 
@@ -23,7 +23,7 @@ class StringBladeServiceProvider extends ViewServiceProvider{
         );
 
         // load the alias (handled by the Laravel autoloader)
-        //$this->app->alias('StringBlade', 'Wpb\String_Blade_Compiler\Facades\StringBlade');
+        //$this->app->alias('StringBlade', 'Atypiccraft\StringBladeCompiler\Facades\StringBlade');
 
         $this->registerEngineResolver();
 

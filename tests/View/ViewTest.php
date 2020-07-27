@@ -1,15 +1,15 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\View;
+namespace Atypiccraft\StringBladeCompiler\Tests\View;
 
 use Closure;
 use ArrayAccess;
 use Mockery as m;
 //use Illuminate\View\View;
-use Wpb\String_Blade_Compiler\View;
+use Atypiccraft\StringBladeCompiler\View;
 use BadMethodCallException;
 //use Illuminate\View\Factory;
-use Wpb\String_Blade_Compiler\Factory;
+use Atypiccraft\StringBladeCompiler\Factory;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Support\MessageBag;
 use Illuminate\Contracts\View\Engine;
@@ -176,7 +176,7 @@ class ViewTest extends TestCase
     public function testViewBadMethod()
     {
         $this->expectException(BadMethodCallException::class);
-        $this->expectExceptionMessage('Method Wpb\String_Blade_Compiler\View::badMethodCall does not exist.');
+        $this->expectExceptionMessage('Method Atypiccraft\StringBladeCompiler\View::badMethodCall does not exist.');
 
         $view = $this->getView();
         $view->badMethodCall();

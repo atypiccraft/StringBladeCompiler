@@ -1,5 +1,5 @@
 <?php
-namespace Wpb\String_Blade_Compiler\Tests\View;
+namespace Atypiccraft\StringBladeCompiler\Tests\View;
 
 class DataObjectStub
 {

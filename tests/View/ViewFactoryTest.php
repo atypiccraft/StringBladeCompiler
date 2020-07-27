@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\View;
+namespace Atypiccraft\StringBladeCompiler\Tests\View;
 
 use Closure;
 use stdClass;
@@ -8,9 +8,9 @@ use Mockery as m;
 use ErrorException;
 use ReflectionFunction;
 //use Illuminate\View\View;
-use Wpb\String_Blade_Compiler\View;
+use Atypiccraft\StringBladeCompiler\View;
 //use Illuminate\View\Factory;
-use Wpb\String_Blade_Compiler\Factory;
+use Atypiccraft\StringBladeCompiler\Factory;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Events\Dispatcher;

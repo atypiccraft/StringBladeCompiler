@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Engines;
+namespace Atypiccraft\StringBladeCompiler\Engines;
 
 use Exception;
 use ErrorException;

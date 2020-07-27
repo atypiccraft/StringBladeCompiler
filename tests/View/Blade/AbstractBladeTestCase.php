@@ -1,12 +1,12 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\Blade;
+namespace Atypiccraft\StringBladeCompiler\Tests\Blade;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Filesystem\Filesystem;
 //use Illuminate\View\Compilers\BladeCompiler;
-use Wpb\String_Blade_Compiler\Compilers\StringBladeCompiler as BladeCompiler;
+use Atypiccraft\StringBladeCompiler\Compilers\StringBladeCompiler as BladeCompiler;
 
 abstract class AbstractBladeTestCase extends TestCase
 {

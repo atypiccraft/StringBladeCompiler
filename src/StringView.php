@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler;
+namespace Atypiccraft\StringBladeCompiler;
 
 use Exception;
 use Throwable;

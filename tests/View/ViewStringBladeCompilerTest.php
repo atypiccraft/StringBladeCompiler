@@ -1,12 +1,12 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\View;
+namespace Atypiccraft\StringBladeCompiler\Tests\View;
 
 use Mockery as m;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Filesystem\Filesystem;
-use Wpb\String_Blade_Compiler\Compilers\StringBladeCompiler as BladeCompiler;
+use Atypiccraft\StringBladeCompiler\Compilers\StringBladeCompiler as BladeCompiler;
 
 class ViewStringBladeCompilerTest extends TestCase
 {

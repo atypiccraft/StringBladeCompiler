@@ -1,6 +1,6 @@
 <?php
 
-namespace Wpb\String_Blade_Compiler\Tests\Blade;
+namespace Atypiccraft\StringBladeCompiler\Tests\Blade;
 
 class BladeHelpersTest extends AbstractBladeTestCase
 {
